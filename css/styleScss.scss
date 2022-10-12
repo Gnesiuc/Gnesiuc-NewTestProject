@@ -1,0 +1,15 @@
+$color__title:rgb(222, 63, 63);
+$foneSize_title: 28px;
+
+
+.btn__open{
+    font-size: $foneSize_title;
+    color: $color__title;
+    &:hover + .info__box{
+        display: block;
+    }
+}
+
+.info__box{
+    display: none;
+}
